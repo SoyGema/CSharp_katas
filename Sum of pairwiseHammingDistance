@@ -1,0 +1,45 @@
+//REVISE 
+
+class Solution {
+    public int hammingDistance(List<int> A) {
+        //decToBin
+    public string findDigitsInBinary(int A) {
+        List<int> listBinary = new List<int>();{
+            if (A == 0){
+                return "0";
+            }
+        }
+            while (A>0){
+                int result;
+                Math.DivRem(A,2,out result); 
+                listBinary.Add(result);
+                A = A / 2;
+            }
+            listBinary.Reverse();
+                string resultBinary = "";
+                for (int i=0; i<listBinary.Count;i++){
+                    resultBinary += listBinary[i].ToString();
+                }
+                return resultBinary;
+            
+    }
+        
+        //Find pairs, apply decToBin and return accumulator?
+        private void findPairs(List<int> A) {
+            resultDifferentPairs = new List<int>;
+            1stPair = new List<int>;
+            2ndPair = new List<int>;
+            var acumulator = 0f;
+            for (i, i < List[i].Count+1, i++){
+                if A[i] =! A[i+1]{
+                    1stPair.Add(decToBin(A[i]));
+                    2ndPair.Add(decToBin(A[i+1]));
+                }
+                if (1stPair[i] - 2ndPair[i] = 1){
+                    acumulator += 1;
+                }
+            }
+            return acumulator 
+        }
+    }
+}
